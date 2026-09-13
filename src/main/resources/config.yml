@@ -1,0 +1,43 @@
+# Mqwenauth Plugin Yapılandırması
+
+lobby-world: mqwenauth_lobby
+main-world: world
+
+min-password-length: 3
+max-password-length: 32
+
+rate-limit-attempts: 3
+rate-limit-seconds: 30
+
+lobby-spawn:
+  x: 0.5
+  y: 64
+  z: 0.5
+  yaw: 0
+  pitch: 0
+
+welcome-message:
+  - "§c════════════════════════════════════════"
+  - "§c╔════════════ LunexVanilla ════════════╗"
+  - "§c║"
+  - "§c║  §fHoş geldiniz sunucumuza!"
+  - "§c║"
+  - "§c║  §cEğer hesabınız varsa:"
+  - "§c║  §f/login <şifre>"
+  - "§c║"
+  - "§c║  §cYeni hesap oluşturmak için:"
+  - "§c║  §f/register <şifre> <şifre-tekrar>"
+  - "§c║"
+  - "§c╚════════════════════════════════════════╝"
+  - "§c════════════════════════════════════════"
+
+login-success: "§c✓ §fGiriş başarılı! Sunucuya hoş geldiniz!"
+login-failed: "§c❌ §fŞifre hatalı! Lütfen tekrar deneyin."
+register-success: "§c✓ §fKayıt başarılı! Sunucuya hoş geldiniz."
+already-registered: "§c❌ §fBu kullanıcı adı zaten kayıtlı!"
+
+force-login: true
+allow-break-blocks-lobby: false
+allow-place-blocks-lobby: false
+pvp-lobby: false
+light-lobby: true
