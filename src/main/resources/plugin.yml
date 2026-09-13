@@ -1,0 +1,25 @@
+name: Mqwenauth
+version: 1.0
+main: com.lunex.mqwenauth.MqwenauthPlugin
+description: Mqwenauth - LunexVanilla Auth Plugin Paper 1.21.11
+author: LunexVanilla
+website: https://lunexvanilla.com
+
+commands:
+  login:
+    description: Sunucuya giriş yap
+    usage: /login <şifre>
+    aliases: [l, ogin]
+  
+  register:
+    description: Yeni hesap oluştur
+    usage: /register <şifre> <şifre-tekrar>
+    aliases: [reg, signup]
+
+permissions:
+  mqwenauth.admin:
+    description: mqwenauth yöneticisi izni
+    default: op
+  mqwenauth.bypass:
+    description: Doğrulama sistemini atla
+    default: false
